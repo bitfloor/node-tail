@@ -1,0 +1,21 @@
+{
+  "author": "Roman Shtylman <shtylman@gmail.com>",
+  "name": "tail",
+  "description": "tail text file in nodejs",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bitfloor/node-tail.git"
+  },
+  "main": "tail.js",
+  "dependencies": {
+    "carrier": "0.1.6"
+  },
+  "scripts": {
+    "test": "nodeunit test.js"
+  },
+  "devDependencies": {
+    "nodeunit": "0.7.3"
+  },
+  "optionalDependencies": {}
+}
